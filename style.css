@@ -367,6 +367,16 @@ h1 {
   }
 }
 
+.contact__terms {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  span {
+    text-decoration: underline;
+  }
+}
+
 /* ---- CONTACT QUERIES ----*/
 
 @media screen and (min-width: 600px) {
